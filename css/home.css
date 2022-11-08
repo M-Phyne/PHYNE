@@ -1,0 +1,9 @@
+@import url('./color.css');
+@import url('./layout.css');
+
+.menu-card {
+    background-image: url('../images/bg-group.png');
+    background-position-y: 80px;
+    background-repeat-y: no-repeat;
+    background-size: contain;
+}

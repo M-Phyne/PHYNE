@@ -1,0 +1,8 @@
+@import url('./color.css');
+@import url('./layout.css');
+
+.bg-inputdata {
+    background-image: url('../images/plant_25.jpg');
+    background-position: center;
+    background-size: cover;
+}

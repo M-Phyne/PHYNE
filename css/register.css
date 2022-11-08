@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap');
+
+body,
+input,
+button {
+    font-family: Prompt;
+}
+
+body {
+    margin: 0;
+}
+
+input {
+    font-size: 16px;
+}
+
+.input-section {
+    text-align: left;
+    padding: 0px 60px 0 60px;
+}
+
+.line-input {
+    margin-bottom: 12px;
+}
+
+.input-section>.line-input>label {
+    width: 120px;
+    display: inline-block;
+}
+
+.logo {
+    width: 28%;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.card {
+    /*border: 1px solid #000;*/
+    box-shadow: 2px 2px 8px gray;
+    padding-bottom: 10px;
+    width: 28%;
+    border-radius: 8px;
+}
+
+.card-header {
+    /*border-bottom: 1px solid #000;*/
+    margin-bottom: 20px;
+    background-color: #2d9bf0;
+    padding: 20px;
+    text-align: left;
+    color: #fff;
+    border-radius: 8px 8px 0 0;
+}
+
+.card-title {
+    margin: 0;
+}
+
+.primary-button {
+    /* normal state */
+    background-color: #2d9bf0;
+    border: none;
+    width: 140px;
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px gray;
+    transition: all .3s;
+}
+
+.primary-button:hover {
+    /* hover state */
+    box-shadow: none;
+}
+
+.input-section>.line-input>input:focus {
+    box-shadow: inset 0px 0px 5px #2d9bf0;
+}
+
+.footer {
+    background-color: #2d9bf0;
+    color: #fff;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

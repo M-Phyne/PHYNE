@@ -1,0 +1,8 @@
+@import url('./color.css');
+@import url('./layout.css');
+
+.bg-account {
+    background-image: url('../images/register.png');
+    background-position: center;
+    background-size: cover;
+}

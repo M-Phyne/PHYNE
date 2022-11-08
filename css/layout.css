@@ -1,0 +1,23 @@
+.my-container {
+    margin: 20px 10% 0 10%;
+}
+
+.preview-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+.preview-circle-sm {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+.w-0 {
+    width: 0;
+}
